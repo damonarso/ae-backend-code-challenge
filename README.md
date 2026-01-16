@@ -8,8 +8,6 @@ This challenge assesses your ability to design and implement a backend solution 
 - Building REST APIs in C# that consume those stored procedures  
 - Implementing features around ship management, crew, and financial reporting  
 
-**You have 14 days to complete the challenge.**
-
 **Tech stack requirements:**  
 - Database: SQL Server
 - Backend: C#  
