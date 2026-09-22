@@ -1,0 +1,53 @@
+Captain
+Chief Mate
+Second Mate
+Third Mate
+Deck Cadet
+Boatswain
+Able Seaman
+Ordinary Seaman
+Chief Engineer
+Second Engineer
+Third Engineer
+Fourth Engineer
+Trainee Marine Engineer
+Motorman
+Oiler
+Wiper
+Electro-Technical Officer
+Lead ETO
+First Electrician
+Chief Electrical Officer
+Chief Electrical Engineer
+Radio Officer
+Chief Steward
+Chief Cook
+Lieutenant
+First Lieutenant
+Second Lieutenant
+Third Lieutenant
+Sailing Master
+Navigating Lieutenant
+Captain of Marines
+Purser
+Surgeon
+Assistant Surgeon
+Physician
+Loblolly Boy
+Chaplain
+Gunner
+Gunner's Mate
+Yeoman of the Powder Room
+Boatswain's Mate
+Sailmaker
+Ropemaker
+Carpenter
+Carpenter's Mate
+Master-at-Arms
+Corporal
+Master's Mate
+Midshipman
+Clerk
+Armourer
+Caulker
+Yeoman of the Sheets

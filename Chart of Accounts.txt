@@ -1,0 +1,324 @@
+ACCT # ACCOUNT
+1000000 ASSETS
+1000200 Current Assets
+1000300 Liquid Assets
+1016000 Cash in Bank
+1016100 Cash in Bank – Acct 1
+1016200 Cash in Bank – Acct 2
+1098000 Savings and Temporary Cash Investments
+1098100 Savings Account
+1098200 Certificate of Deposit
+1098300 Money Market Accounts
+1098310 Money Market – Acct 1
+1098320 Wing Money Market in Investment
+1110000 Accounts Receivable
+1120000 Accounts Receivable
+1190000 Allowance for Doubtful Accounts
+1350000 Prepaid Expenses
+1350100 Prepaid General
+1350200 Prepaid Advances
+1400000 Investments
+1410000 Investments – Unrestricted
+1411000 Scholarship Fund
+1414000 General Fund
+1430000 Investments – Restricted
+1441000 Investment Valuation Allowance
+1499 Undeposited Funds
+1500000 Fixed Assets
+1505000 Land
+1520000 Fixed Assets – Buildings & Improvements
+1520010 Building 1
+1520020 Building 2
+1520090 Work in Progress
+1525000 Accumulated Depreciation – Buildings & Improvements
+1530000 Fixed Assets – Furniture & Fixtures
+1535000 Accumulated Depreciation – Furniture & Fixtures
+1540000 Fixed Assets – Computers
+1545000 Accumulated Depreciation – Computers
+1570000 Fixed Assets – Other Equipment
+1575000 Accumulated Depreciation – Other Equipment
+1600000 Equipment Under Capital Leases
+1605000 Accumulated Depreciation – Capital Leases
+1620000 Fixed Assets – Communication Equipment
+1625000 Accumulated Depreciation – Communication Equipment
+2000000 LIABILITIES AND NET ASSETS
+2010000 Liabilities
+2015000 Accounts Payable
+2016000 Credit Cards (only if Credit Card Function in QuickBooks® is used)
+2100000 Accrued Payroll Liabilities
+2110000 Accrued Salaries
+2121000 Accrued Leave
+2130000 Accrued Payroll Taxes
+2195000 Obligations Under Capital Leases – Current
+2350000 Deferred Revenue and Credits
+2600000 Notes Payable - Current
+2700000 Long-Term Liabilities
+2750000 Obligations Under Capital Leases
+2755000 Notes Payable – Long-Term
+3000000 Net Assets
+3005000 Current Year Net Assets
+3015000 Net Assets – Unrestricted
+3025000 Net Assets – Temporarily Restricted
+3030000 Net Assets – Permanently Restricted
+3000 Opening Balance Equity
+3900 Retained Earnings
+4000000 REVENUES AND EXPENSES
+4999 Uncategorized Income
+5000000 Revenues
+5010000 Revenues from Government Contracts
+5050000 Federal, State and Local Government Missions
+5050100 Aircraft Minor Maintenance
+5050200 Aircraft Fuel
+5050300 Miscellaneous
+5060000 State Appropriation
+5080000 Government Contributions – Unrestricted
+5081000 Government Contributions – Restricted
+5082000 Government Contributed Facilities & Utilities
+5083000 Government Contributions Materials & Supplies (DRMO)
+5090000 State Director Income
+5090100 State Director Rent & Utilities – From NHQ
+5090200 State Director Flying – From NHQ
+5100000 Revenues from Activities
+5223200 Senior Activities
+5223201 Activity 1
+5223202 Activity 2
+5224200 Cadet Activities
+5224201 Encampment
+5224202 Activity 1
+5224300 Combined Senior & Cadet Activities
+5224301 Activity 1
+5224302 Activity 2
+5225200 Flight Activities/Member Flying
+5225201 Aircraft Minor Maintenance
+5225202 Aircraft Fuel
+5225203 Miscellaneous
+5235000 Other Mission Income
+5240000 Fundraising Income
+5240100 Wreaths Across America
+5240200 Raffle Income
+5240300 Other Fundraising Income
+5310000 Revenue from Dues
+5310010 Member Dues
+5310011 From NHQ
+5310012 From Members
+5342000 Contributions - From NHQ
+5400000 Other Revenue and Gains
+5410000 Interest Income
+5412000 Contributions
+5412010 Contributions – Unrestricted
+5412011 Contributions – Unrestricted – Cash
+5412012 Contributions – Unrestricted – Non-Cash
+5412020 Contributions – Restricted
+5412021 Contributions – Restricted – Cash
+5412022 Contributions – Restricted – Non-Cash
+5413000 Non-Government Contributed Facilities & Utilities
+5415000 Miscellaneous Income
+5416000 Rental Income
+5419000 Investment Income
+5419010 Investment Income – Unrestricted
+5419020 Investment Income – Restricted
+5420000 Unrealized Market Gain/Loss
+5422000 Gain/Loss on Sale of Securities
+5423000 Gain/Loss on Sale or Disposal of Assets
+5424100 Material & Supply Sales
+5424200 Insurance Collected
+5424300 Unrelated Business Income
+5424310 Advertising Sales (Dennison Brothers)
+5424320 Other UBI
+6210000 Special Events
+6212000 Wing Conference Registration
+6213000 Other Wing Events
+6214000 Unit Events
+6299999 6310000 PY Budgeted Reserves Use (for budget use only)
+6300000 From National Headquarters
+From NHQ – Funded Flying
+6310100 Aircraft Minor Maintenance
+6310110 CD Missions
+6310120 SAR Actual Missions
+6310130 SAR Training Missions
+6310170 ROTC Flying
+6310180 Cadet Orientation Rides
+6310200 Aircraft Fuel
+6310210 CD Missions
+6310220 SAR Actual Missions
+6310230 SAR Training Missions
+6310270 ROTC Flying
+6310280 Cadet Orientation Rides
+6310300 Miscellaneous
+6310310 CD Missions
+6310320 SAR Actual Missions
+6310330 SAR Training Missions
+6310380 Cadet Orientation Glider Tows
+6313000 From NHQ – Aircraft & Vehicle Maintenance
+6313010 Aircraft Reimbursable Maintenance
+6313015 Consolidated Mx Ferry Costs
+6313020 Glider Reimbursable Maintenance
+6313030 Vehicle Reimbursable Maintenance
+6314000 From NHQ – Senior Activities
+6315000 From NHQ – Cadet Activities
+6315010 National Flight Academies
+6315020 National Cadet Competition
+6315030 Advance Technologies Academies
+6315040 National Character & Leadership
+6315090 Other Cadet Activities
+6320000 From NHQ – Other
+6320010 IACE
+6320020 NESA
+6320030 Teacher Flights
+6320040 DDR
+6320050 Travel
+6320060 Scholarships
+6320070 Supplies
+6320100 Miscellaneous
+6320200 Miscellaneous Missions
+6320210 Aircraft Minor Maintenance
+6320220 Aircraft Fuel
+6320230 Miscellaneous
+6500000 From Units Below National Headquarters
+6510000 From Regions and Wings
+6510100 From Regions
+6510110 From Regions through NHQ
+6510120 Other Income from Regions
+6510200 From Wings
+6510210 Proficiency Flying
+6510215 Aircraft Fuel
+6510220 Vehicle Maintenance
+6510225 Vehicle Fuel
+6510230 Mission Reimbursements
+6510240 Membership Dues
+6510250 Activities
+6510290 Miscellaneous
+6513000 From Units Below
+6513010 Proficiency Flying
+6513015 Aircraft Fuel
+6513020 Vehicle Maintenance
+6513025 Vehicle Fuel
+6513030 Mission Reimbursements
+6513040 Membership Dues
+6513050 Wing Conference
+6513060 Encampment
+6513090 Miscellaneous
+Miscellaneous
+6560 Payroll Expenses
+6999 Uncategorized Expenses
+7000000 OPERATING EXPENSES
+7100000 Awards and Grants to Individuals
+7120000 Awards
+7135000 Scholarships
+7200000 Salaries and Related Expenses
+7210000 Salaries
+7220000 Accrued Leave Expense
+7310000 401(k) Corporate Contribution
+7320000 Health Insurance
+7324000 Worker’s Comp Insurance
+7325000 Other Employee Benefits
+7410000 Payroll Tax Expense
+7520000 Professional Services
+7600000 Mission Expenses
+7695000 Other Mission Expenses
+7696000 Vehicle Fuel
+7697000 Aircraft Fuel
+7700000 Supplies
+7700100 Supplies
+7701000 Cost of Sales
+7730000 Equipment Purchases
+7735000 Equipment
+7745000 Communication Equipment
+7800000 Telephone and Communication
+7810000 Telephone & Communication
+7813000 Internet Fees
+7820000 IT Expenses
+7900000 Postage and Shipping
+8000000 Occupancy Expenses
+8010000 Rent
+8015000 Utilities
+8016000 Property Taxes
+8020000 Contributed Facilities and Utilities
+8085000 Other Facility Expenditures
+8100000 Maintenance Expenses
+8110000 Aircraft Maintenance
+8120000 Vehicle Maintenance
+8121000 Equipment Leases
+8123000 Other Equipment Maintenance
+8230000 Dues & Publications
+8310000 Travel
+8400000 Activities and Encampments
+8475000 Cadet Activities
+8475010 Encampment
+8475020 Activity 2
+8475030 Drug Demand Reduction
+8475040 Glider Flights Expense
+8475050 O-Rides Member Aircraft
+8475060 IACE
+8476000 Senior Activities
+8476010 Activity 1
+8476020 Activity 2
+8476030 Activity 3
+8480000 Combined Senior & Cadet Activities
+8480010 Activity 1
+8480020 Activity 2
+8505000 Conferences, Conventions and Meetings
+8510000 Wing Conference Expense
+8530000 Miscellaneous Wing Events
+8540000 Unit Events
+8650000 Depreciation Expense
+8652000 Depreciation – Buildings & Improvements
+8653000 Depreciation – Furniture & Fixtures
+8654000 Depreciation – Computers
+8657000 Depreciation – Other Equipment
+8665000 Depreciation – Capital Leases
+8667000 Depreciation – Communications Equipment
+8700000 Insurance
+8820000 Professional Development
+9100000 Bad Debt Expense
+9240000 Advertising
+9300000 Other Expenses
+9301000 Protocol Expenses (Region & Wing only)
+9302000 Miscellaneous
+9303000 Bank Expense
+9304000 Credit Card Expense
+9305000 Interest Expense
+9306000 Unrelated Business Income Expense
+9306100 Fundraising Expenses
+9306200 Raffle Expenses
+9306300 Lobbying Expenses
+9399999 Budgeted Reserves (for budget use only)
+9401000 Expenditures with NHQ
+9401010 Membership Dues
+9401020 Consolidated Minor Maintenance
+9401030 Property Assessments
+9401040 National Activities
+9401050 Dennison Brothers Taxes
+9401090 Miscellaneous
+9510000 Expenditures with Regions
+9510010 Aircraft Maintenance
+9510015 Aircraft Fuel
+9510020 Vehicle Maintenance
+9510025 Vehicle Fuel
+9510030 Mission Reimbursements
+9510040 Membership Dues
+9510050 Website Hosting
+9510055 Region Activities
+9510060 Region Conference
+9510090 Miscellaneous
+9520000 Expenditures with Wings
+9520010 Proficiency Flying
+9520015 Aircraft Fuel
+9520020 Vehicle Maintenance
+9520025 Vehicle Fuel
+9520030 Mission Reimbursements
+9520040 Membership Dues
+9520050 Wing Conferences
+9520060 Encampment
+9520090 Miscellaneous
+9530000 Expenditures with Units Below
+9530010 Proficiency Flying
+9530015 Aircraft Fuel
+9530020 Vehicle Maintenance
+9530025 Vehicle Fuel
+9530030 Mission Reimbursements
+9530040 Membership Dues
+9530050 Encampment
+9530060 Scholarships
+9530070 Unit Activities
+9530090 Miscellaneous

@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <RootNamespace>Ae.Maritime</RootNamespace>
+
+    <!-- XML docs feed the Swagger descriptions. 1591 suppresses the warning
+         for members that are self-evident and need no <summary>. -->
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Application layer -->
+    <PackageReference Include="FluentValidation" Version="11.9.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.9.0" />
+
+    <!-- Infrastructure layer -->
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.8" />
+
+    <!-- Pinned above what Microsoft.Data.SqlClient/EF Core pull in transitively,
+         to close known advisories (CVE-2024-29992, CVE-2024-35255, CVE-2024-43483,
+         CVE-2024-38095) until the upstream packages bump their own floors. -->
+    <PackageReference Include="Azure.Identity" Version="1.21.0" />
+    <PackageReference Include="Microsoft.Identity.Client" Version="4.90.0" />
+
+    <!-- API layer -->
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- The test project needs to reach the internal repositories and result
+         row types. Those stay internal so that nothing in the Api folder can
+         reach past the repository interfaces into EF Core directly. -->
+    <InternalsVisibleTo Include="Ae.Maritime.Tests" />
+  </ItemGroup>
+
+</Project>

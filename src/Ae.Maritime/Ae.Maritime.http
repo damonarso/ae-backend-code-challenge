@@ -1,0 +1,75 @@
+@HostAddress = http://localhost:5000
+
+# No launchSettings.json is checked in, so the port above isn't guaranteed.
+# Run `dotnet run --project src/Ae.Maritime/Ae.Maritime.csproj` and match
+# HostAddress to whatever URL it prints on startup.
+
+### Health check
+GET {{HostAddress}}/health
+
+### Get ships (paged, filterable by status and free-text search)
+GET {{HostAddress}}/api/ships?status=ACTIVE&search=&pageNumber=1&pageSize=25
+Accept: application/json
+
+### Get ship by id
+GET {{HostAddress}}/api/ships/1
+Accept: application/json
+
+### Create ship (omit displayId to let the database assign SHIPnn)
+# @name createShip
+POST {{HostAddress}}/api/ships
+Content-Type: application/json
+
+{
+  "shipName": "MV Test Carrier",
+  "fiscalYearCode": "0403",
+  "statusCode": "ACTIVE",
+  "imoNumber": "1234567"
+}
+
+### Get ship by id (using the id returned above)
+GET {{HostAddress}}/api/ships/{{createShip.response.body.$.shipId}}
+Accept: application/json
+
+### Get crew list for a ship: paged, sortable, searchable
+GET {{HostAddress}}/api/ships/1/crew?asOfDate=2026-09-21&search=&sortBy=RankName&sortDirection=Ascending&pageNumber=1&pageSize=25
+Accept: application/json
+
+### Get financial report detail for a ship and period
+GET {{HostAddress}}/api/ships/1/financial-report/detail?period=2025-02&includeZeroRows=false
+Accept: application/json
+
+### Get financial report summary (roll-up to a given account level)
+GET {{HostAddress}}/api/ships/1/financial-report/summary?period=2025-02&maxLevel=2
+Accept: application/json
+
+### Get users (paged, filterable)
+GET {{HostAddress}}/api/users?includeInactive=false&search=&pageNumber=1&pageSize=25
+Accept: application/json
+
+### Get user by id
+GET {{HostAddress}}/api/users/1
+Accept: application/json
+
+### Create user
+# @name createUser
+POST {{HostAddress}}/api/users
+Content-Type: application/json
+
+{
+  "fullName": "Jane Doe",
+  "email": "jane.doe@example.com",
+  "roleCode": "ADMIN"
+}
+
+### Get user by id (using the id returned above)
+GET {{HostAddress}}/api/users/{{createUser.response.body.$.userId}}
+Accept: application/json
+
+### Get ships assigned to a user
+GET {{HostAddress}}/api/users/1/ships?activeOnly=true
+Accept: application/json
+
+### Assign a ship to a user (idempotent: PUT, returns the user's full assignment list)
+PUT {{HostAddress}}/api/users/1/ships/1
+Accept: application/json
